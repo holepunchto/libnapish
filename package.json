@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "name": "libnapish",
+  "scripts": {
+    "format": "prettier --write .",
+    "lint": "prettier --check ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/holepunchto/libnapish.git"
+  },
+  "author": "Holepunch",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/holepunchto/libnapish/issues"
+  },
+  "homepage": "https://github.com/holepunchto/libnapish#readme",
+  "devDependencies": {
+    "cmake-fetch": "^1.5.5",
+    "cmake-harden": "^1.1.3",
+    "cmake-napi": "^1.5.0",
+    "cmake-prelude": "^0.1.12",
+    "cmake-test": "^0.1.7",
+    "prettier": "^3.9.6",
+    "prettier-config-holepunch": "^2.0.0"
+  }
+}
